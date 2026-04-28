@@ -139,63 +139,63 @@ const situations: {
 }[] = [
   {
     icon: 'inherited',
-    title: 'Inherited a mobile home',
-    body: "Don't fly back and forth to deal with it. We'll buy it so you can settle the estate quickly.",
+    title: 'Inherited acreage',
+    body: 'Family land you can’t actively manage? We turn it into a producing community asset — purchase or partner.',
   },
   {
     icon: 'lotRent',
-    title: 'Behind on lot rent',
-    body: 'Lot rent stacking up faster than the home is worth? Sell to us and walk away clean.',
+    title: 'Carrying costs eating returns',
+    body: 'Property tax and interest compounding on idle dirt? Let us put the land to its highest use.',
   },
   {
     icon: 'parkMove',
-    title: 'Park wants it moved',
-    body: "Eviction notice or move-out demand? We handle transport — you don't hire a hauler.",
+    title: 'Tired park operator',
+    body: 'Done managing a legacy mobile-home park? We acquire, reposition, and operate at scale.',
   },
   {
     icon: 'relocation',
-    title: 'Relocating',
-    body: "Don't leave a mobile home behind. Close before your move date and start fresh.",
+    title: '1031 exchange target',
+    body: 'Need to place capital fast into a yielding asset? Heritage projects qualify and pencil.',
   },
   {
     icon: 'vacant',
-    title: 'Vacant or abandoned',
-    body: 'Sitting empty in a park you no longer want to deal with? Cash out and stop paying lot rent.',
+    title: 'Vacant raw land',
+    body: 'Dirt sitting on a county map for years? We underwrite the parcel and bring a community vision.',
   },
   {
     icon: 'damaged',
-    title: 'Trashed or damaged',
-    body: 'Fire, water, vandalism, gutted — we buy mobile homes most retail buyers walk away from.',
+    title: 'Distressed park',
+    body: 'Aging infrastructure, deferred maintenance, low occupancy? We turnaround community assets.',
   },
   {
     icon: 'tenants',
-    title: 'Problem tenants',
-    body: "Bad renters or mid-lease? We'll buy the home with tenants in place.",
+    title: 'JV partner wanted',
+    body: 'Want to ride the upside instead of selling? Co-develop the project with our team and capital.',
   },
   {
     icon: 'landlord',
-    title: 'Tired landlord',
-    body: 'Done with midnight calls and turnover costs on rental mobile homes? Cash out and move on.',
+    title: 'Subdivision that under-yields',
+    body: 'Approved single-family lots? A manufactured-home community can generate higher cash-on-cash.',
   },
   {
     icon: 'title',
-    title: 'Title not in your name',
-    body: "Lost it, never had it, or stuck in probate? We buy through title issues and handle the paperwork.",
+    title: 'Stuck in entitlement',
+    body: 'Plans stalled at the county? Our team has shepherded zoning, hearings, and permits in 12+ states.',
   },
   {
     icon: 'vin',
-    title: "Can't find the VIN",
-    body: "No VIN, no HUD tag, no problem. We've tracked them down on hundreds of homes.",
+    title: 'Off-market parcel',
+    body: 'Land you’ve never listed but are open to monetizing? We do confidential, no-broker conversations.',
   },
   {
     icon: 'lawsuit',
-    title: 'Sued or threatened with one',
-    body: 'Park or tenant taking you to court? Sell to us and walk away before it gets worse.',
+    title: 'Lender pressure',
+    body: 'Loan maturing or covenant tripped on a land position? We can recapitalize or close fast.',
   },
   {
     icon: 'rehab',
-    title: 'Rehab gone wrong',
-    body: 'Contractor took your money and ghosted? Sell it as-is and stop bleeding cash.',
+    title: 'Failed development attempt',
+    body: 'Previous builder walked away or ran out of capital? We pick projects up mid-stream and finish them.',
   },
 ]
 
@@ -249,21 +249,21 @@ export function Situations() {
             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-900"
           >
             <span className="h-px w-10 bg-blue-900" />
-            Who we help
+            Who we partner with
           </motion.p>
           <motion.h2
             variants={item}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Every seller has a{' '}
-            <span className="serif-italic text-blue-900">story</span>.
+            Every parcel has a{' '}
+            <span className="serif-italic text-blue-900">path forward</span>.
           </motion.h2>
           <motion.p
             variants={item}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            You don&apos;t need a perfect reason to sell. Whatever your
-            situation — we&apos;ve probably helped someone in the same spot.
+            You don&apos;t need a perfect deal teed up. Whatever the situation
+            — we&apos;ve probably worked through one like it.
           </motion.p>
         </motion.div>
 
@@ -308,14 +308,14 @@ export function Situations() {
           transition={{ duration: 0.5, ease: EASE_OUT }}
           className="mt-10 text-center text-sm text-neutral-500"
         >
-          Not sure if your situation fits?{' '}
+          Not sure if your parcel fits?{' '}
           <a
             href="#cta-form"
             className="font-semibold text-blue-900 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-600"
           >
-            Tell us about your home
+            Tell us about your land
           </a>{' '}
-          — we&apos;ll let you know on the call.
+          — we&apos;ll be straight with you on the call.
         </motion.p>
       </div>
     </section>

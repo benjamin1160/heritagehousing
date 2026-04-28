@@ -7,11 +7,11 @@ type Badge = {
 }
 
 const badges: Badge[] = [
-  { title: '4.9 / 5', sub: 'Google reviews', icon: 'star' },
-  { title: 'Best-seller', sub: 'Amazon author', icon: 'shield' },
-  { title: '900+', sub: 'mobile homes bought', icon: 'home' },
-  { title: '9+ years', sub: 'buying in the Southeast', icon: 'award' },
-  { title: '7-day close', sub: 'available', icon: 'clock' },
+  { title: 'A&E', sub: 'Zombie House Flipping', icon: 'star' },
+  { title: 'Trusted', sub: 'land partner', icon: 'shield' },
+  { title: '2,500+', sub: 'pads developed', icon: 'home' },
+  { title: '20+ years', sub: 'community building', icon: 'award' },
+  { title: 'Fast close', sub: 'on qualifying parcels', icon: 'clock' },
 ]
 
 function Icon({ name }: { name: Badge['icon'] }) {

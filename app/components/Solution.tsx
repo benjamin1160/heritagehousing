@@ -74,43 +74,43 @@ const benefits: {
 }[] = [
   {
     icon: 'cash',
-    title: 'Fair cash offer in 24 hours',
-    body: 'A real, written offer — not a guess. Reviewed by a real buyer, not an algorithm.',
+    title: 'Capital and construction, fully funded',
+    body: 'We bring the equity, debt, and build-out. You bring the parcel — no out-of-pocket from you on entitlement or development.',
     size: 'wide',
     tone: 'from-green-500/15 to-emerald-300/5',
   },
   {
     icon: 'home',
-    title: 'Sell as-is',
-    body: 'Dated, damaged, or vacant — we buy it exactly as it stands.',
+    title: 'Flexible deal structure',
+    body: 'Outright purchase, joint venture, or seller-carried partnership — we structure to what works for you.',
     size: 'default',
     tone: 'from-blue-500/15 to-cyan-300/5',
   },
   {
     icon: 'wrench',
-    title: 'No repairs or cleaning',
-    body: "Leave what you don't want. We handle everything after close.",
+    title: 'Entitlement & engineering',
+    body: 'Zoning, permitting, civil, utilities — our team has navigated it across multiple states.',
     size: 'default',
     tone: 'from-orange-500/15 to-amber-300/5',
   },
   {
     icon: 'noShow',
-    title: 'No showings or open houses',
-    body: 'One walkthrough with our team. No strangers touring your home.',
+    title: 'Community design & layout',
+    body: 'Pad density, amenities, road grids, stormwater — Jay Eben designs communities that actually lease up.',
     size: 'default',
     tone: 'from-violet-500/15 to-indigo-300/5',
   },
   {
     icon: 'noFee',
-    title: 'No agent fees or commissions',
-    body: 'No 6% to a realtor. No closing costs. The cash number we quote is the cash you walk away with.',
+    title: 'Marketing reach & visibility',
+    body: 'Justin Stamper from A&E’s Zombie House Flipping puts your project in front of an audience most operators can’t access.',
     size: 'tall',
     tone: 'from-rose-500/15 to-pink-300/5',
   },
   {
     icon: 'clock',
-    title: 'You choose the closing date',
-    body: 'Close in 7 days or 60 — we work around you. Move out whenever suits you.',
+    title: 'You choose how to participate',
+    body: 'Cash out at close, ride alongside us as a JV partner, or stay on as ground lessor — your call.',
     size: 'default',
     tone: 'from-sky-500/15 to-blue-300/5',
   },
@@ -119,18 +119,18 @@ const benefits: {
 const steps = [
   {
     n: '01',
-    title: 'Submit your property info',
-    body: 'Fill out the form or call. Takes 60 seconds — address, a few basics, and your timeline.',
+    title: 'Tell us about the land',
+    body: 'Fill out the form or call. Address, acreage, current zoning, and what outcome you want — purchase, JV, or partnership.',
   },
   {
     n: '02',
-    title: 'Receive your cash offer',
-    body: 'We review the property and send a fair, no-obligation cash offer within 24 hours.',
+    title: 'Free feasibility & proposal',
+    body: 'Our team underwrites the highest-and-best community use, then sends a written proposal with structure options and projected economics.',
   },
   {
     n: '03',
-    title: 'Close on your timeline',
-    body: 'Say yes and pick your closing date. We cover the costs — you walk away with cash in hand.',
+    title: 'Pick your path',
+    body: 'Sell outright, partner with us through entitlement and build, or stay in as a long-term JV. We close, fund, and start the project.',
   },
 ]
 
@@ -196,16 +196,17 @@ export function Solution() {
             variants={listItem}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Why sellers choose{' '}
-            <span className="serif-italic text-blue-900">Garcia</span>.
+            Why landowners partner with{' '}
+            <span className="serif-italic text-blue-900">Heritage</span>.
           </motion.h2>
           <motion.p
             variants={listItem}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            We&apos;ve closed on 900+ mobile homes across the Southeast — from
-            1970s singlewides to newer doublewides, in parks and on private
-            land. One fair cash offer, no surprise fees, on your timeline.
+            We&apos;ve developed and managed 2,500+ pads across the country —
+            manufactured-home communities, RV resorts, and master-planned
+            residential. One team, fully funded, all the way from raw dirt to
+            stabilized asset.
           </motion.p>
         </motion.div>
 

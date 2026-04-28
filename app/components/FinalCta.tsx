@@ -77,7 +77,7 @@ export function FinalCta() {
             <span className="pulse-ring absolute inline-flex h-full w-full rounded-full bg-green-400" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
           </span>
-          Buying now — 24hr response
+          Reviewing parcels now — fast response
         </motion.p>
 
         <motion.h2
@@ -87,10 +87,10 @@ export function FinalCta() {
           transition={{ duration: 0.7, ease: EASE_OUT, delay: 0.08 }}
           className="display balance mt-6 text-5xl md:text-7xl font-semibold"
         >
-          Ready to see what we can offer?
+          Have land? Let&apos;s build something.
           <br className="hidden md:block" />
           <span className="serif-italic text-green-300">
-            Get your cash offer.
+            Submit your parcel.
           </span>
         </motion.h2>
 
@@ -101,9 +101,9 @@ export function FinalCta() {
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.18 }}
           className="balance mx-auto mt-6 max-w-xl text-lg text-blue-100/90 leading-relaxed"
         >
-          Tell us about your mobile home — any age, any park, any condition.
-          We&apos;ll send a fair, no-obligation cash offer within 24 hours, or
-          call us now at{' '}
+          Tell us about your land — acreage, county, current zoning, what
+          outcome you want. Heritage Housing Solutions will send a written
+          proposal with structure options, or call us at{' '}
           <a
             href="tel:+14045550123"
             className="font-semibold text-white underline decoration-green-400/60 underline-offset-4 hover:decoration-green-300"
@@ -125,14 +125,14 @@ export function FinalCta() {
           <div className="space-y-3">
             <div>
               <label htmlFor="address" className="sr-only">
-                Mobile home address or park name
+                Land address, parcel ID, or county / acreage
               </label>
               <input
                 id="address"
                 name="address"
                 type="text"
                 required
-                placeholder="Mobile home address or park name"
+                placeholder="Parcel address, county, or acreage"
                 className="w-full rounded-xl border border-white/10 bg-white/5 px-5 py-3.5 text-base text-white placeholder:text-blue-200/60 transition-colors focus:border-green-400 focus:bg-white/10 focus:outline-none"
               />
             </div>
@@ -188,9 +188,9 @@ export function FinalCta() {
               className="mt-0.5 h-4 w-4 shrink-0 rounded border-white/30 bg-white/5"
             />
             <span className="leading-relaxed">
-              I agree to receive texts and calls from Garcia Mobile Home Buyers
-              about my offer. Reply STOP to opt out. Msg &amp; data rates may
-              apply.
+              I agree to receive texts and calls from Heritage Housing
+              Solutions about my parcel. Reply STOP to opt out. Msg &amp; data
+              rates may apply.
             </span>
           </label>
 
@@ -201,11 +201,11 @@ export function FinalCta() {
             transition={{ type: 'spring', stiffness: 400, damping: 22 }}
             className="shimmer-hover cta-glow relative mt-5 w-full overflow-hidden rounded-full bg-gradient-to-br from-green-500 to-green-700 px-7 py-4 text-base font-semibold text-white"
           >
-            <span className="relative z-10">Get My Cash Offer →</span>
+            <span className="relative z-10">Submit My Parcel →</span>
           </motion.button>
 
           <p className="mt-3 text-center text-xs text-blue-200/70">
-            No obligation. Free, no-pressure offer.
+            Free feasibility review. No broker, no fee.
           </p>
         </motion.form>
       </div>

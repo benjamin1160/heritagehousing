@@ -15,35 +15,35 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 const testimonials = [
   {
     quote:
-      'TESTIMONIAL PLACEHOLDER — to be replaced with a Google Reviews embed. Aim for an inherited / out-of-state seller story: 2–3 sentences, situation before, what we did, how fast it closed.',
-    name: 'Seller name',
-    role: 'City, ST',
-    initials: 'SN',
-    tag: 'Inherited · out of state',
+      'TESTIMONIAL PLACEHOLDER — replace with a landowner who sold acreage outright. Aim for: parcel size, what was holding it up, how Heritage structured it, how fast they closed.',
+    name: 'Landowner name',
+    role: 'County, ST',
+    initials: 'LN',
+    tag: 'Outright purchase · 80 acres',
   },
   {
     quote:
-      'TESTIMONIAL PLACEHOLDER — to be replaced with a Google Reviews embed. Aim for a back-lot-rent or park-eviction story: how much was owed, how the seller felt, what closing looked like.',
-    name: 'Seller name',
-    role: 'City, ST',
-    initials: 'SN',
-    tag: 'Back lot rent',
+      'TESTIMONIAL PLACEHOLDER — replace with a JV partner. Aim for: what they brought (land), what Heritage brought (capital + entitlement), and the projected outcome.',
+    name: 'JV partner name',
+    role: 'County, ST',
+    initials: 'JP',
+    tag: 'Joint venture · MHC build',
   },
   {
     quote:
-      'TESTIMONIAL PLACEHOLDER — to be replaced with a Google Reviews embed. Aim for a damaged / trashed mobile home story: condition, what other buyers said, how Jose handled it.',
-    name: 'Seller name',
-    role: 'City, ST',
-    initials: 'SN',
-    tag: 'Trashed · as-is',
+      'TESTIMONIAL PLACEHOLDER — replace with a tired park operator who sold a legacy park. Aim for: years owned, why they wanted out, how Heritage repositioned it.',
+    name: 'Operator name',
+    role: 'County, ST',
+    initials: 'OP',
+    tag: 'Legacy park · acquired',
   },
 ]
 
 const stats = [
-  { value: 900, suffix: '+', label: 'Mobile homes bought' },
-  { value: 9, suffix: ' yrs', label: 'Buying across the Southeast' },
-  { value: 400, suffix: '+', label: 'Investors trained at GMHU' },
-  { value: 24, suffix: ' hr', label: 'Cash offer turnaround' },
+  { value: 2500, suffix: '+', label: 'Pads developed & managed' },
+  { value: 20, suffix: '+ yrs', label: 'Building communities' },
+  { value: 12, suffix: '+', label: 'States with active projects' },
+  { value: 24, suffix: ' hr', label: 'Initial proposal turnaround' },
 ]
 
 const container = {
@@ -120,8 +120,8 @@ export function Proof() {
             variants={card}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            <span className="serif-italic text-blue-900">900+</span> mobile
-            homes. One honest process.
+            <span className="serif-italic text-blue-900">2,500+</span> pads.
+            One disciplined team.
           </motion.h2>
         </motion.div>
 
@@ -194,8 +194,8 @@ export function Proof() {
         </motion.div>
 
         <div className="mt-20 flex justify-center">
-          <CtaButton microcopy="No obligation. Free, no-pressure offer.">
-            Get My Cash Offer
+          <CtaButton microcopy="Free feasibility review. No obligation, no broker.">
+            Start the Conversation
           </CtaButton>
         </div>
       </div>

@@ -5,9 +5,9 @@ import type { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title:
-    'Sell Your Mobile Home Fast for Cash — Free Offer in 24 Hours | Garcia Mobile Home Buyers',
+    'Turn Your Land Into a Thriving Community — Land Partnerships for Investors | Heritage Housing Solutions',
   description:
-    'We buy mobile and manufactured homes for cash — any age, any park, any condition. No repairs, no showings, no agent fees. Run by Jose Garcia, founder of Garcia Mobile Home University and Amazon best-selling author.',
+    'Heritage Housing Solutions partners with investors and landowners to develop manufactured-home communities, RV parks, and large-scale residential projects. Led by community-building expert Jay Eben and A&E Zombie House Flipping star Justin Stamper.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {

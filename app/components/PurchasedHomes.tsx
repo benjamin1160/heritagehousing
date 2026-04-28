@@ -9,13 +9,13 @@ const viewport = { once: true, amount: 0.2 }
 const homes = [
   {
     src: '/media/purchased/home-1.jpeg',
-    alt: 'Mobile home Garcia Mobile Home Buyers purchased',
+    alt: 'Manufactured-home community Heritage Housing Solutions developed',
     width: 960,
     height: 713,
   },
   {
     src: '/media/purchased/home-2.jpeg',
-    alt: 'Mobile home Garcia Mobile Home Buyers purchased',
+    alt: 'Manufactured-home community Heritage Housing Solutions developed',
     width: 1079,
     height: 811,
   },
@@ -75,15 +75,15 @@ export function PurchasedHomes() {
             variants={item}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Homes we&apos;ve{' '}
-            <span className="serif-italic text-blue-900">purchased</span>.
+            Communities we&apos;ve{' '}
+            <span className="serif-italic text-blue-900">developed</span>.
           </motion.h2>
           <motion.p
             variants={item}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            Real homes, real closings. A small slice of the 900+ mobile and
-            manufactured homes we&apos;ve bought across the Southeast.
+            Real projects, real residents. A small slice of the 2,500+ pads
+            we&apos;ve developed and managed across the country.
           </motion.p>
         </motion.div>
 
@@ -117,7 +117,7 @@ export function PurchasedHomes() {
                 />
                 <figcaption className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-full border border-white/40 bg-white/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white backdrop-blur">
                   <span className="h-1.5 w-1.5 rounded-full bg-green-400" />
-                  Closed · cash
+                  Built · stabilized
                 </figcaption>
               </div>
             </motion.figure>
