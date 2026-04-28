@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #111827;
+  --accent-foreground: #ffffff;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.balance {
+  text-wrap: balance;
+}

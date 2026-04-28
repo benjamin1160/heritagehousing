@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "solutions",
+    "starter",
+    "framework-boilerplates",
+    "edge-middleware",
+    "apps",
+    "app-directory",
+    "flags-sdk",
+    "cdn",
+    "ci-cd",
+    "go",
+    "guides",
+    "internal",
+    "microfrontends",
+    "plop-templates",
+    "python",
+    "rust",
+    "storage",
+    "toolbar",
+    "vercel-tutor",
+    "build-output-api"
+  ]
+}
