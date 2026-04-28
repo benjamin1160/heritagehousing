@@ -5,18 +5,18 @@ import { motion } from 'framer-motion'
 const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const crossedOptions = [
-  { label: 'List with an agent', sub: '6% commission. Months on market.' },
+  { label: 'List the raw land', sub: 'Brokers undervalue community-ready dirt.' },
   {
-    label: 'Make repairs first',
-    sub: 'Thousands out-of-pocket before offers.',
+    label: 'Entitle it yourself',
+    sub: 'Years of zoning fights, six-figure soft costs.',
   },
   {
-    label: 'Host open houses',
-    sub: 'Strangers walking through every weekend.',
+    label: 'Build single-family',
+    sub: 'A fraction of the yield of a community.',
   },
   {
-    label: 'Wait for a buyer',
-    sub: 'Inspections, lender delays, fall-throughs.',
+    label: 'Sit on it',
+    sub: 'Taxes and carry costs, no income, no growth.',
   },
 ]
 
@@ -53,7 +53,7 @@ export function Problem() {
           className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-rose-400"
         >
           <span className="h-px w-10 bg-rose-400" />
-          The traditional way
+          The usual playbook
         </motion.p>
 
         <motion.h2
@@ -63,8 +63,8 @@ export function Problem() {
           transition={{ duration: 0.8, ease: EASE_OUT, delay: 0.08 }}
           className="display mt-6 text-5xl md:text-7xl lg:text-[92px] font-semibold tracking-tight leading-[0.98] max-w-5xl"
         >
-          Selling the old way is{' '}
-          <span className="serif-italic text-rose-400">expensive and slow</span>
+          Holding raw land is{' '}
+          <span className="serif-italic text-rose-400">slow and expensive</span>
           .
         </motion.h2>
 
@@ -77,15 +77,15 @@ export function Problem() {
             className="text-lg md:text-xl text-neutral-300 leading-relaxed space-y-5"
           >
             <p>
-              Maybe you inherited a house you can&apos;t keep. Maybe the roof
-              needs replacing before anyone will touch it. Maybe you&apos;re
-              facing a job move, a divorce, or a lender deadline — and you
-              don&apos;t have six months to wait.
+              Maybe you inherited acreage. Maybe a deal stalled in entitlement.
+              Maybe you&apos;ve got 20, 100, or 500 acres sitting there while
+              property taxes, interest, and opportunity cost compound every
+              quarter.
             </p>
             <p>
-              Listing the traditional way means paying for repairs, prepping for
-              showings, and praying a buyer&apos;s financing doesn&apos;t fall
-              through. Every option feels like a dead-end:
+              Going it alone means hiring engineers, fighting county hearings,
+              floating soft costs, and praying you pencil out. Every direction
+              feels like a dead-end:
             </p>
           </motion.div>
 
@@ -163,9 +163,9 @@ export function Problem() {
             &ldquo;
           </div>
           <p className="relative serif-italic text-3xl md:text-5xl text-white leading-[1.1] tracking-tight">
-            You need a buyer who{' '}
-            <span className="text-rose-400">shows up with cash</span>, takes the
-            home as it is, and lets you pick the day you walk away.
+            You need a partner who{' '}
+            <span className="text-rose-400">brings the capital, the entitlement team, and the build crew</span>{' '}
+            — and lets you pick how you want to participate.
           </p>
         </motion.blockquote>
       </div>

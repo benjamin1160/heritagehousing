@@ -12,9 +12,9 @@ import {
 const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const checklist = [
-  'Cash at close',
-  'No fees, no commissions',
-  'Close in as little as 7 days',
+  'Capital & build-out funded',
+  'No broker, no upfront fees',
+  'Outright, JV, or partnership',
 ]
 
 function formatDollars(n: number) {
@@ -35,7 +35,7 @@ export function OfferCard() {
 
   useEffect(() => {
     if (inView) {
-      const c = animate(count, 34500, {
+      const c = animate(count, 4250000, {
         duration: 2.2,
         ease: [0.22, 1, 0.36, 1],
         delay: 0.4,
@@ -81,7 +81,7 @@ export function OfferCard() {
               </svg>
             </div>
             <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-neutral-500">
-              Garcia MHU · Cash Offer
+              Heritage · Land Proposal
             </div>
           </div>
           <div className="text-[10px] font-medium text-neutral-400">
@@ -93,19 +93,19 @@ export function OfferCard() {
           <div className="flex items-start justify-between gap-4 text-sm">
             <div>
               <div className="text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
-                Property
+                Parcel
               </div>
               <div className="mt-1 font-medium text-neutral-900">
-                Lot 47, Pine Ridge MHP
+                42 acres · MHC concept
               </div>
-              <div className="text-neutral-500">Loganville, GA</div>
+              <div className="text-neutral-500">Marion County, FL</div>
             </div>
             <div className="text-right">
               <div className="text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
-                Sale type
+                Structure
               </div>
               <div className="mt-1 font-medium text-neutral-900">
-                As-is · cash
+                JV · 70 / 30
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export function OfferCard() {
         {/* Cash offer */}
         <div className="mt-6 rounded-xl bg-gradient-to-br from-green-50 via-white to-blue-50 p-5 ring-1 ring-green-100">
           <div className="text-[10px] font-semibold uppercase tracking-wider text-green-700">
-            Your cash offer
+            Projected stabilized value
           </div>
           <div className="mt-1 flex items-baseline gap-1 font-semibold tracking-tight">
             <span className="text-5xl md:text-6xl tabular-nums bg-gradient-to-br from-green-700 to-emerald-500 bg-clip-text text-transparent">
@@ -122,7 +122,7 @@ export function OfferCard() {
             </span>
           </div>
           <div className="mt-1 text-xs text-neutral-500">
-            Offered within 24 hours of your submission
+            Underwritten by Heritage on parcel submission
           </div>
         </div>
 
@@ -181,7 +181,7 @@ export function OfferCard() {
 
       {/* Float helper reminder legend under the card */}
       <div aria-hidden className="mt-4 text-center text-xs text-neutral-400">
-        Illustrative example — your offer depends on condition &amp; location
+        Illustrative example — actual proposal depends on parcel &amp; market
       </div>
     </motion.div>
   )

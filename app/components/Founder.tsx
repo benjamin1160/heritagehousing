@@ -7,9 +7,9 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 const viewport = { once: true, amount: 0.3 }
 
 const credentials = [
-  { value: '900+', label: 'mobile homes bought' },
-  { value: '400+', label: 'investors trained at GMHU' },
-  { value: '#1', label: 'Amazon best-seller' },
+  { value: 'A&E', label: 'Zombie House Flipping cast' },
+  { value: '2,500+', label: 'pads developed with Jay' },
+  { value: '20+ yrs', label: 'community-building experience' },
 ]
 
 export function Founder() {
@@ -46,7 +46,7 @@ export function Founder() {
             <div className="paper-card relative overflow-hidden">
               <Image
                 src="/media/team/jose-portrait.webp"
-                alt="Jose Garcia, founder of Garcia Mobile Home Buyers and Garcia Mobile Home University"
+                alt="Justin Stamper, partner at Heritage Housing Solutions and cast member of A&E’s Zombie House Flipping"
                 width={800}
                 height={592}
                 priority={false}
@@ -60,14 +60,14 @@ export function Founder() {
               <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3 text-white">
                 <div>
                   <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-white/80">
-                    Founder
+                    Partner
                   </div>
                   <div className="text-lg font-semibold tracking-tight drop-shadow-sm">
-                    Jose Garcia
+                    Justin Stamper
                   </div>
                 </div>
                 <div className="rounded-full border border-white/40 bg-white/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] backdrop-blur">
-                  Loganville, GA
+                  A&amp;E · Zombie House Flipping
                 </div>
               </div>
             </div>
@@ -81,38 +81,49 @@ export function Founder() {
           >
             <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-900">
               <span className="h-px w-10 bg-blue-900" />
-              Meet the buyer
+              Meet the partners
             </p>
             <h2 className="display mt-6 text-5xl md:text-6xl font-semibold text-neutral-950">
               Hi, I&apos;m{' '}
-              <span className="serif-italic text-blue-900">Jose</span>.
+              <span className="serif-italic text-blue-900">Justin</span>.
             </h2>
             <p className="mt-4 text-sm font-medium text-neutral-500">
-              Founder of{' '}
+              Cast member,{' '}
               <span className="text-neutral-900">
-                Garcia Mobile Home University
+                A&amp;E&apos;s Zombie House Flipping
               </span>{' '}
-              · 400+ investors trained · Amazon best-selling author
+              · partner at Heritage Housing Solutions
             </p>
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-neutral-700">
               <p>
-                I&apos;ve spent the last nine years buying mobile and
-                manufactured homes across the Southeast — singlewides,
-                doublewides, in parks and on private land, any age, any
-                condition. My team and I have closed on more than 900 of them.
+                You may know me from A&amp;E&apos;s{' '}
+                <em>Zombie House Flipping</em> — the show where my team and I
+                renovate the worst, most-abandoned houses in Orlando, Tampa,
+                and Seattle and turn them back into livable homes. After years
+                of doing it one house at a time, I wanted to do it at scale.
               </p>
               <p>
-                I&apos;m not just a buyer — I literally teach this. Over 400
-                other investors have come through Garcia Mobile Home University
-                to learn how I source, evaluate, and close mobile-home deals.
-                When you call me, you&apos;re not getting someone learning on
-                your home. You&apos;re getting the person other buyers learn
-                from.
+                That&apos;s why I partnered with{' '}
+                <a
+                  href="https://www.linkedin.com/in/jayeben"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-semibold text-blue-900 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-600"
+                >
+                  Jay Eben
+                </a>{' '}
+                at Heritage Housing Solutions. Jay has spent two decades
+                designing, entitling, and operating manufactured-home
+                communities and parks. He brings the operational depth; I bring
+                the visibility and the network. Together we partner with
+                landowners on projects most operators won&apos;t touch.
               </p>
               <p>
-                Fill out the form and we&apos;ll send you a fair cash number, no
-                pressure, no back-and-forth. If the offer works, we close on
-                your schedule. If it doesn&apos;t, you walk away owing nothing.
+                Tell us about your land. We&apos;ll send a written proposal —
+                purchase, JV, or partnership structure — within a few business
+                days. If it&apos;s the right fit, we close, fund, and break
+                ground. If it&apos;s not, you walk away with a free
+                feasibility take.
               </p>
             </div>
 
@@ -134,7 +145,7 @@ export function Founder() {
                 href="#cta-form"
                 className="shimmer-hover cta-glow relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-br from-green-500 to-green-700 px-6 py-3 text-sm font-semibold text-white"
               >
-                <span className="relative z-10">Get my cash offer</span>
+                <span className="relative z-10">Submit your land</span>
                 <span aria-hidden className="relative z-10">
                   →
                 </span>

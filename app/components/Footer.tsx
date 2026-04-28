@@ -29,11 +29,26 @@ export function Footer() {
                 <path d="M3 10l9-7 9 7v10a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
               </svg>
             </span>
-            Garcia Mobile Home Buyers
+            Heritage Housing Solutions
           </div>
           <p className="mt-2">
-            Garcia Property Group, LLC &middot; 4396 Lawrenceville Rd, Suite
-            110, Loganville, GA 30052
+            <a
+              href="https://www.heritagehousingsolutions.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-white transition-colors"
+            >
+              heritagehousingsolutions.com
+            </a>
+            {' · '}
+            <a
+              href="https://partners.heritagehousingsolutions.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-white transition-colors"
+            >
+              partners.heritagehousingsolutions.com
+            </a>
           </p>
           <p className="mt-1">
             <a
@@ -44,7 +59,7 @@ export function Footer() {
             </a>
           </p>
           <p className="mt-1 text-blue-200/50">
-            © {new Date().getFullYear()} Garcia Property Group, LLC. All rights
+            © {new Date().getFullYear()} Heritage Housing Solutions. All rights
             reserved.
           </p>
         </div>
@@ -60,7 +75,7 @@ export function Footer() {
           </p>
           <p className="mt-2 max-w-md">
             By submitting your info you consent to receive SMS and calls from
-            Garcia Mobile Home Buyers. Reply STOP to opt out.
+            Heritage Housing Solutions. Reply STOP to opt out.
           </p>
         </div>
       </div>

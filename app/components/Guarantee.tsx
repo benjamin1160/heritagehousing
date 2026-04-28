@@ -52,8 +52,8 @@ export function Guarantee() {
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.12 }}
           className="display balance mt-8 text-4xl md:text-6xl font-semibold text-neutral-950"
         >
-          No obligation. No pressure.{' '}
-          <span className="serif-italic text-blue-900">No surprise fees.</span>
+          No broker. No fees up front.{' '}
+          <span className="serif-italic text-blue-900">No NDA needed to talk.</span>
         </motion.h2>
 
         <motion.p
@@ -63,9 +63,10 @@ export function Guarantee() {
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.22 }}
           className="balance mx-auto mt-5 max-w-xl text-lg text-neutral-600 leading-relaxed"
         >
-          The offer is free. The call is free. If our number isn&apos;t right
-          for you, walk away — no fee, no pressure. The cash amount we quote is
-          the cash you walk away with at closing.
+          The feasibility review is free. The call is free. If our proposal
+          isn&apos;t the right fit, walk away — no broker commission, no
+          consulting fee, nothing owed. We only make money when projects
+          actually close and get built.
         </motion.p>
       </div>
     </section>

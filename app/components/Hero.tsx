@@ -84,7 +84,7 @@ export function Hero() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
               </span>
               <span className="rounded-full border border-blue-200/80 bg-white/80 px-3 py-1 text-[11px] font-semibold tracking-[0.12em] text-blue-900 uppercase backdrop-blur">
-                Buying mobile homes in GA · AL · TN · SC · FL
+                Now partnering with landowners across the US
               </span>
             </motion.div>
 
@@ -92,22 +92,23 @@ export function Hero() {
               variants={item}
               className="display text-5xl md:text-6xl lg:text-7xl font-semibold text-neutral-950"
             >
-              Sell your mobile home{' '}
+              Turn your land into a{' '}
               <span className="serif-italic highlight-swoosh text-green-700">
-                fast
+                thriving
               </span>
               <br />
-              for cash.
+              community.
             </motion.h1>
 
             <motion.p
               variants={item}
               className="mt-6 max-w-xl text-lg md:text-xl text-neutral-600 leading-relaxed"
             >
-              Any age, any park, any condition. Get a fair, no-obligation cash
-              offer in 24 hours — no repairs, no showings, no agent fees,{' '}
+              Heritage Housing Solutions partners with investors and landowners
+              to develop manufactured-home communities, RV parks, and
+              large-scale residential projects —{' '}
               <span className="font-semibold text-neutral-900">
-                you pick the closing date.
+                from feasibility through stabilization.
               </span>
             </motion.p>
 
@@ -120,7 +121,7 @@ export function Hero() {
               <div className="rounded-2xl border border-neutral-200 bg-white/90 p-3 shadow-lg shadow-blue-900/5 backdrop-blur">
                 <div className="flex flex-col gap-2 sm:flex-row">
                   <label htmlFor="hero-address" className="sr-only">
-                    Mobile home address or park
+                    Land address, parcel ID, or county
                   </label>
                   <div className="relative flex-1">
                     <svg
@@ -141,7 +142,7 @@ export function Hero() {
                       name="address"
                       type="text"
                       required
-                      placeholder="Mobile home address or park name"
+                      placeholder="Parcel address, county, or acreage"
                       className="w-full rounded-xl border border-transparent bg-neutral-50 py-3.5 pl-11 pr-4 text-base text-neutral-900 placeholder:text-neutral-400 transition-colors focus:border-blue-400 focus:bg-white focus:outline-none"
                     />
                   </div>
@@ -152,7 +153,7 @@ export function Hero() {
                     transition={{ type: 'spring', stiffness: 400, damping: 22 }}
                     className="shimmer-hover cta-glow relative overflow-hidden rounded-xl bg-gradient-to-br from-green-500 to-green-700 px-6 py-3.5 text-base font-semibold text-white whitespace-nowrap"
                   >
-                    <span className="relative z-10">Get My Cash Offer →</span>
+                    <span className="relative z-10">Start My Proposal →</span>
                   </motion.button>
                 </div>
               </div>
@@ -169,7 +170,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Free & no obligation
+                  Free feasibility review
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -183,7 +184,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Offer in 24 hours
+                  JV, partnership, or outright purchase
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -197,7 +198,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Close in as little as 7 days
+                  Capital, entitlement & build-out handled
                 </span>
               </p>
             </motion.form>
@@ -238,8 +239,8 @@ export function Hero() {
                     </svg>
                   ))}
                 </span>
-                <span className="font-medium text-neutral-800">4.9/5</span>
-                <span className="text-neutral-500">· 320+ reviews</span>
+                <span className="font-medium text-neutral-800">As seen on</span>
+                <span className="text-neutral-500">· A&amp;E Zombie House Flipping</span>
               </div>
             </motion.div>
 
@@ -249,26 +250,26 @@ export function Hero() {
             >
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  900+
+                  2,500+
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Mobile homes bought
+                  Pads developed &amp; managed
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  9+ yrs
+                  20+ yrs
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  In the trade
+                  Building communities
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  7 days
+                  Nationwide
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Fastest close
+                  Active deal footprint
                 </div>
               </div>
             </motion.div>
@@ -288,7 +289,7 @@ export function Hero() {
               <div className="paper-card relative overflow-hidden">
                 <Image
                   src="/media/hero-handshake.jpg"
-                  alt="Cash close handshake between a Garcia Mobile Home Buyers representative and a relieved seller in the Southeast"
+                  alt="Heritage Housing Solutions partner shaking hands with a landowner before breaking ground on a new community"
                   width={1264}
                   height={848}
                   priority

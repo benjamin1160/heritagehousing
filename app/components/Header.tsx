@@ -47,9 +47,9 @@ export function Header() {
             </svg>
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="text-[15px]">Garcia Mobile Home Buyers</span>
+            <span className="text-[15px]">Heritage Housing Solutions</span>
             <span className="hidden text-[10px] font-medium tracking-wide text-neutral-500 sm:inline">
-              Cash offers · Any age · Any condition
+              Land partnerships · Community development
             </span>
           </span>
         </Link>
@@ -83,7 +83,7 @@ export function Header() {
               href="#cta-form"
               className="shimmer-hover relative inline-flex items-center gap-1.5 rounded-full bg-gradient-to-br from-green-500 to-green-700 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-green-600/30 hover:shadow-lg hover:shadow-green-600/40 transition-shadow"
             >
-              <span className="relative z-10">Get My Cash Offer</span>
+              <span className="relative z-10">Partner With Us</span>
               <span aria-hidden className="relative z-10">
                 →
               </span>
