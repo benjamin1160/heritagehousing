@@ -5,18 +5,18 @@ import { motion } from 'framer-motion'
 const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const crossedOptions = [
-  { label: 'List the raw land', sub: 'Brokers undervalue community-ready dirt.' },
+  { label: 'List the raw land', sub: 'Sell at the comp — leave the upside on the table.' },
   {
-    label: 'Entitle it yourself',
-    sub: 'Years of zoning fights, six-figure soft costs.',
+    label: 'Build it yourself',
+    sub: 'No operator, no brand, no idea who fills the pads.',
   },
   {
-    label: 'Build single-family',
-    sub: 'A fraction of the yield of a community.',
+    label: 'Hire a generic developer',
+    sub: 'Single-family thinking. Doesn’t pencil for a community.',
   },
   {
     label: 'Sit on it',
-    sub: 'Taxes and carry costs, no income, no growth.',
+    sub: 'Taxes and carry costs forever, no income, no growth.',
   },
 ]
 
@@ -77,15 +77,15 @@ export function Problem() {
             className="text-lg md:text-xl text-neutral-300 leading-relaxed space-y-5"
           >
             <p>
-              Maybe you inherited acreage. Maybe a deal stalled in entitlement.
-              Maybe you&apos;ve got 20, 100, or 500 acres sitting there while
-              property taxes, interest, and opportunity cost compound every
+              Maybe you inherited acreage. Maybe you bought it years ago and
+              never figured out the play. Maybe you&apos;ve got land sitting
+              there while property taxes and opportunity cost compound every
               quarter.
             </p>
             <p>
-              Going it alone means hiring engineers, fighting county hearings,
-              floating soft costs, and praying you pencil out. Every direction
-              feels like a dead-end:
+              Going it alone means cobbling together a builder, an operator,
+              and a marketer — and hoping they actually talk to each other.
+              Every option feels like a dead-end:
             </p>
           </motion.div>
 
@@ -163,9 +163,9 @@ export function Problem() {
             &ldquo;
           </div>
           <p className="relative serif-italic text-3xl md:text-5xl text-white leading-[1.1] tracking-tight">
-            You need a partner who{' '}
-            <span className="text-rose-400">brings the capital, the entitlement team, and the build crew</span>{' '}
-            — and lets you pick how you want to participate.
+            You need a team that{' '}
+            <span className="text-rose-400">brings the homes, the operator, and the audience</span>{' '}
+            — so you keep the land and the upside.
           </p>
         </motion.blockquote>
       </div>

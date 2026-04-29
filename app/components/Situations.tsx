@@ -140,62 +140,42 @@ const situations: {
   {
     icon: 'inherited',
     title: 'Inherited acreage',
-    body: 'Family land you can’t actively manage? We turn it into a producing community asset — purchase or partner.',
+    body: 'Family land you can’t actively manage? Let us help turn it into a producing community without you selling.',
+  },
+  {
+    icon: 'vacant',
+    title: 'Raw land sitting idle',
+    body: 'Acreage you’ve held for years and never figured out the play on? We’ll tell you on a 15-minute call whether a community pencils.',
   },
   {
     icon: 'lotRent',
     title: 'Carrying costs eating returns',
-    body: 'Property tax and interest compounding on idle dirt? Let us put the land to its highest use.',
+    body: 'Property tax and interest compounding on dirt that produces nothing? A community puts it to work.',
   },
   {
     icon: 'parkMove',
     title: 'Tired park operator',
-    body: 'Done managing a legacy mobile-home park? We acquire, reposition, and operate at scale.',
-  },
-  {
-    icon: 'relocation',
-    title: '1031 exchange target',
-    body: 'Need to place capital fast into a yielding asset? Heritage projects qualify and pencil.',
-  },
-  {
-    icon: 'vacant',
-    title: 'Vacant raw land',
-    body: 'Dirt sitting on a county map for years? We underwrite the parcel and bring a community vision.',
-  },
-  {
-    icon: 'damaged',
-    title: 'Distressed park',
-    body: 'Aging infrastructure, deferred maintenance, low occupancy? We turnaround community assets.',
-  },
-  {
-    icon: 'tenants',
-    title: 'JV partner wanted',
-    body: 'Want to ride the upside instead of selling? Co-develop the project with our team and capital.',
+    body: 'Already own a mobile-home park you’re done managing? Jay has run portfolios past 25 communities — happy to step in.',
   },
   {
     icon: 'landlord',
-    title: 'Subdivision that under-yields',
-    body: 'Approved single-family lots? A manufactured-home community can generate higher cash-on-cash.',
-  },
-  {
-    icon: 'title',
-    title: 'Stuck in entitlement',
-    body: 'Plans stalled at the county? Our team has shepherded zoning, hearings, and permits in 12+ states.',
-  },
-  {
-    icon: 'vin',
-    title: 'Off-market parcel',
-    body: 'Land you’ve never listed but are open to monetizing? We do confidential, no-broker conversations.',
-  },
-  {
-    icon: 'lawsuit',
-    title: 'Lender pressure',
-    body: 'Loan maturing or covenant tripped on a land position? We can recapitalize or close fast.',
+    title: 'Land near a growing market',
+    body: 'Parcel near a Sun Belt metro where workforce housing is undersupplied? That’s exactly what we build.',
   },
   {
     icon: 'rehab',
-    title: 'Failed development attempt',
-    body: 'Previous builder walked away or ran out of capital? We pick projects up mid-stream and finish them.',
+    title: 'Stalled subdivision',
+    body: 'Approved lots that aren’t penciling for stick-built? A manufactured-home layout often unlocks the deal.',
+  },
+  {
+    icon: 'tenants',
+    title: 'Want skin in the game',
+    body: 'Don’t want to just sell? Most of our partnerships keep the landowner in for a piece of the upside.',
+  },
+  {
+    icon: 'vin',
+    title: 'Off-market and quiet',
+    body: 'Land you’ve never listed but you’re open to monetizing? Confidential conversation, no broker, no signage.',
   },
 ]
 

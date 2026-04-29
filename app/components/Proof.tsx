@@ -15,35 +15,35 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 const testimonials = [
   {
     quote:
-      'TESTIMONIAL PLACEHOLDER — replace with a landowner who sold acreage outright. Aim for: parcel size, what was holding it up, how Heritage structured it, how fast they closed.',
+      'PLACEHOLDER — replace with a landowner who partnered with Heritage to build a community. Aim for: how they found us, what the parcel was, and what changed for them after the partnership.',
     name: 'Landowner name',
     role: 'County, ST',
     initials: 'LN',
-    tag: 'Outright purchase · 80 acres',
+    tag: 'Partnership · landowner kept equity',
   },
   {
     quote:
-      'TESTIMONIAL PLACEHOLDER — replace with a JV partner. Aim for: what they brought (land), what Heritage brought (capital + entitlement), and the projected outcome.',
-    name: 'JV partner name',
-    role: 'County, ST',
-    initials: 'JP',
-    tag: 'Joint venture · MHC build',
-  },
-  {
-    quote:
-      'TESTIMONIAL PLACEHOLDER — replace with a tired park operator who sold a legacy park. Aim for: years owned, why they wanted out, how Heritage repositioned it.',
+      'PLACEHOLDER — replace with an operator perspective on Jay’s playbook. Aim for: prior occupancy / NOI, what Jay changed, the operating result.',
     name: 'Operator name',
-    role: 'County, ST',
+    role: 'Community, ST',
     initials: 'OP',
-    tag: 'Legacy park · acquired',
+    tag: 'Operations turnaround',
+  },
+  {
+    quote:
+      'PLACEHOLDER — replace with an investor who came in via Justin’s audience. Aim for: how they heard about Heritage, what made them trust the team, the outcome.',
+    name: 'Investor name',
+    role: 'City, ST',
+    initials: 'IN',
+    tag: 'Found us via A&E platform',
   },
 ]
 
 const stats = [
-  { value: 2500, suffix: '+', label: 'Pads developed & managed' },
-  { value: 20, suffix: '+ yrs', label: 'Building communities' },
-  { value: 12, suffix: '+', label: 'States with active projects' },
-  { value: 24, suffix: ' hr', label: 'Initial proposal turnaround' },
+  { value: 25, suffix: '+', label: 'Communities in Jay’s operating arc' },
+  { value: 100, suffix: '+', label: 'Zombie houses flipped on A&E by Justin' },
+  { value: 2, suffix: '', label: 'States Jay holds dealer licenses (FL, TX)' },
+  { value: 100, suffix: '%', label: 'Honest fit-check on the first call' },
 ]
 
 const container = {
@@ -120,8 +120,9 @@ export function Proof() {
             variants={card}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            <span className="serif-italic text-blue-900">2,500+</span> pads.
-            One disciplined team.
+            One{' '}
+            <span className="serif-italic text-blue-900">community-builder</span>.
+            One brand. Aligned on you.
           </motion.h2>
         </motion.div>
 
