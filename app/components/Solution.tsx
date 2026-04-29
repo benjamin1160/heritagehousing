@@ -102,8 +102,8 @@ const benefits: {
   },
   {
     icon: 'wrench',
-    title: 'Honest fit check first',
-    body: 'Not every parcel pencils as a community. We tell you on the first call whether the math works — before anyone spends a dollar.',
+    title: 'MH 101 on the first call',
+    body: "You know real estate. We'll explain how MH community economics actually work — yields, cap rates, lot rent, occupancy — in plain English, before you commit anything.",
     size: 'default',
     tone: 'from-orange-500/15 to-amber-300/5',
   },
@@ -119,18 +119,18 @@ const benefits: {
 const steps = [
   {
     n: '01',
-    title: 'Tell us about the land',
-    body: 'Fill out the form or call. Address or county, acreage, current zoning, and what you want out of it.',
+    title: 'Tell us where you’re coming from',
+    body: 'Park owner scaling up, fix-and-flipper looking for the next move, housing authority funding new inventory, capital looking for a deal — different starting points, different conversations.',
   },
   {
     n: '02',
-    title: 'Honest fit call with Jay',
-    body: 'Jay walks the parcel on a map and tells you whether it can support a manufactured-home community — and what kind. No pitch deck, no retainer.',
+    title: '15-min walkthrough with Jay',
+    body: 'Jay explains how MH community returns work versus what you’re used to — yields, cap rates, occupancy patterns, the whole picture. No pitch deck, no retainer.',
   },
   {
     n: '03',
-    title: 'Build, fill, operate',
-    body: 'If it’s a fit, we draft a partnership structure that lets you keep skin in the game. Heritage supplies the homes, Jay runs operations, Justin drives visibility.',
+    title: 'Find the deal that fits you',
+    body: 'Acquire an existing community, partner on a build-out, allocate into one of ours, or pass — your call. We only move forward when the numbers actually work for you.',
   },
 ]
 
@@ -196,16 +196,17 @@ export function Solution() {
             variants={listItem}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            What you actually get with{' '}
-            <span className="serif-italic text-blue-900">Heritage</span>.
+            Your on-ramp into{' '}
+            <span className="serif-italic text-blue-900">manufactured housing</span>.
           </motion.h2>
           <motion.p
             variants={listItem}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            Three things stitched together: a brand that gets eyeballs on the
-            project, a dealer that supplies the homes, and an operator who&apos;s
-            already run portfolios past 25 communities.
+            Four things stitched together: a brand that gets eyeballs on the
+            project, an operator who&apos;s run portfolios past 25 communities,
+            a dealer supplying the homes — and the patience to walk a real-
+            estate investor through an asset class they&apos;ve never touched.
           </motion.p>
         </motion.div>
 

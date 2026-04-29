@@ -5,18 +5,21 @@ import { motion } from 'framer-motion'
 const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const crossedOptions = [
-  { label: 'List the raw land', sub: 'Sell at the comp — leave the upside on the table.' },
   {
-    label: 'Build it yourself',
-    sub: 'No operator, no brand, no idea who fills the pads.',
+    label: 'Another fix-and-flip',
+    sub: 'Yield ceiling, exhausting cycle, one unit at a time.',
   },
   {
-    label: 'Hire a generic developer',
-    sub: 'Single-family thinking. Doesn’t pencil for a community.',
+    label: 'Generic SFR rentals',
+    sub: 'Fragmented portfolio, low cash-on-cash, hard to scale.',
   },
   {
-    label: 'Sit on it',
-    sub: 'Taxes and carry costs forever, no income, no growth.',
+    label: 'Multifamily at retail',
+    sub: 'Cap rates compressed, everyone bidding on the same deals.',
+  },
+  {
+    label: 'Wait for the next cycle',
+    sub: 'Capital sitting idle while inflation eats it.',
   },
 ]
 
@@ -53,7 +56,7 @@ export function Problem() {
           className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-rose-400"
         >
           <span className="h-px w-10 bg-rose-400" />
-          The usual playbook
+          The investor’s dilemma
         </motion.p>
 
         <motion.h2
@@ -63,9 +66,9 @@ export function Problem() {
           transition={{ duration: 0.8, ease: EASE_OUT, delay: 0.08 }}
           className="display mt-6 text-5xl md:text-7xl lg:text-[92px] font-semibold tracking-tight leading-[0.98] max-w-5xl"
         >
-          Holding raw land is{' '}
-          <span className="serif-italic text-rose-400">slow and expensive</span>
-          .
+          You know real estate. Why are you{' '}
+          <span className="serif-italic text-rose-400">still grinding flips</span>
+          ?
         </motion.h2>
 
         <div className="mt-16 grid gap-14 md:grid-cols-[1fr_1fr]">
@@ -77,15 +80,15 @@ export function Problem() {
             className="text-lg md:text-xl text-neutral-300 leading-relaxed space-y-5"
           >
             <p>
-              Maybe you inherited acreage. Maybe you bought it years ago and
-              never figured out the play. Maybe you&apos;ve got land sitting
-              there while property taxes and opportunity cost compound every
-              quarter.
+              You&apos;ve done flips. You&apos;ve looked at SFR portfolios.
+              You&apos;ve watched cap rates on multifamily compress. You know
+              the obvious moves — and they all stop scaling at some point.
             </p>
             <p>
-              Going it alone means cobbling together a builder, an operator,
-              and a marketer — and hoping they actually talk to each other.
-              Every option feels like a dead-end:
+              Manufactured-home communities are the asset class your
+              fix-and-flip peers haven&apos;t figured out yet. The numbers are
+              there. The playbook isn&apos;t. So most investors stay where
+              they are:
             </p>
           </motion.div>
 
@@ -164,8 +167,8 @@ export function Problem() {
           </div>
           <p className="relative serif-italic text-3xl md:text-5xl text-white leading-[1.1] tracking-tight">
             You need a team that{' '}
-            <span className="text-rose-400">brings the homes, the operator, and the audience</span>{' '}
-            — so you keep the land and the upside.
+            <span className="text-rose-400">walks you into the asset class</span>
+            {' '}— and runs the operations once you&apos;re in.
           </p>
         </motion.blockquote>
       </div>

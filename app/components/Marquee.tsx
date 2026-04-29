@@ -7,11 +7,11 @@ type Badge = {
 }
 
 const badges: Badge[] = [
-  { title: 'A&E', sub: 'Zombie House Flipping', icon: 'star' },
+  { title: 'A&E', sub: 'Justin · Zombie House Flipping', icon: 'star' },
+  { title: 'LakeShore', sub: 'Jay · community-operator alum', icon: 'award' },
+  { title: 'FL · TX', sub: 'Mobile home dealer licensed', icon: 'home' },
   { title: 'BBB A+', sub: 'Heritage Housing Solutions', icon: 'shield' },
-  { title: 'FL · TX', sub: 'mobile home dealer licensed', icon: 'home' },
-  { title: 'LakeShore', sub: 'community-operator alum', icon: 'award' },
-  { title: '25+', sub: 'communities in Jay’s arc', icon: 'clock' },
+  { title: '15-min', sub: 'walkthrough call — no fee', icon: 'clock' },
 ]
 
 function Icon({ name }: { name: Badge['icon'] }) {

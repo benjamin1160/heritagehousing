@@ -7,44 +7,44 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const faqs = [
   {
-    q: 'What kind of project is Heritage actually building?',
-    a: 'Manufactured-home communities. We help landowners take raw or under-used acreage and turn it into a community of factory-built homes — supplied by Heritage Housing Solutions, operated by Jay Eben\'s team.',
+    q: "I've never invested in manufactured housing. Where do I start?",
+    a: "On a 15-minute call with Jay. He'll explain how MH community returns actually work — lot rent, occupancy, expense ratios, how a community gets to stabilization — versus the fix-and-flip or SFR math you're already used to. No pitch deck, no homework, no commitment to come back.",
+  },
+  {
+    q: "I've been doing fix-and-flips. Why would MH be a better next move?",
+    a: "Because flips top out. Each unit is a one-time payday and the cycle exhausts itself. A manufactured-home community is monthly cash flow on dozens of pads at once, with the same kind of value-add upside you already know how to spot — just at portfolio scale. Justin made exactly this jump.",
+  },
+  {
+    q: 'My team is an affordable-housing authority. Can you partner with us?',
+    a: "Yes. Manufactured-home communities are one of the fastest, lowest-cost paths to new affordable-housing inventory — the unit price points and build speed are very different from stick-built. We're set up to work with municipal and housing-authority partners on the structure that fits your charter.",
+  },
+  {
+    q: 'I own a small park already. What does scaling with you look like?',
+    a: "Jay's specialty is exactly the gap you're hitting — going from one or two communities to the operating architecture that supports five, ten, twenty-five. That can mean acquiring adjacent communities, taking on operations of your existing community, or co-developing additional ones.",
   },
   {
     q: 'Who is Justin Stamper and what does he do here?',
-    a: 'Justin is a cast member of A&E\'s Zombie House Flipping and an active real-estate investor in Central Florida (Blueprint Real Estate Group). At Heritage, his role is brand and marketing — putting projects in front of investors and residents through his platform.',
+    a: "Justin is a cast member of A&E's Zombie House Flipping and a Central-Florida real-estate investor (Blueprint Real Estate Group). At Heritage, his role is brand and marketing — getting investors, residents, and partners onto the platform.",
   },
   {
     q: 'Who is Jay Eben and what does he do here?',
-    a: 'Jay is the operator. He\'s a licensed mobile-home dealer in FL and TX, an alum of LakeShore Management — one of the largest manufactured-housing community operators in the US — and runs his own community vehicle, Broadview Communities. If Justin is the face, Jay is the playbook.',
+    a: "Jay is the operator. Licensed mobile-home dealer in FL and TX, alum of LakeShore Management — one of the largest manufactured-housing community operators in the US — and now runs his own community vehicle, Broadview Communities.",
   },
   {
     q: 'What does Heritage Housing Solutions itself supply?',
-    a: 'Heritage is a Florida-licensed dealer of manufactured, modular, and tiny homes (BBB A+, license DH11519051). Once a community is approved and built out, Heritage supplies the homes that fill the pads.',
+    a: "Heritage is a Florida-licensed dealer of manufactured, modular, and tiny homes (BBB A+, license DH11519051). When a community is built or expanded, Heritage supplies the homes that fill the pads.",
   },
   {
-    q: 'Do you buy my land or do I keep it?',
-    a: 'Most of our partnerships keep the landowner in. The point of bringing Justin\'s reach and Jay\'s operating muscle is so you don\'t have to sell the land at retail-comp pricing — you participate in the community we build together. That said, an outright purchase is on the table if that\'s what you want.',
+    q: 'Do I need to bring land or capital to start?',
+    a: "Either works. Land owners come for the operator and the homes. Capital partners come for the deal flow and the operating team. Most conversations land on a structure that fits whichever side you bring.",
   },
   {
     q: 'Are there any fees or retainers to talk?',
-    a: 'No. No broker commission, no consulting retainer, no upfront cost to have the conversation. We make money when the community is actually built and operating.',
-  },
-  {
-    q: 'What if my land doesn\'t pencil as a community?',
-    a: 'We\'ll tell you on the first call. Not every parcel is a fit — wrong location, wrong zoning posture, wrong shape. Jay\'s honest fit-check is the first step, and it\'s free.',
-  },
-  {
-    q: 'Where do you focus geographically?',
-    a: 'Heritage is Florida-based with active inventory in central and south Florida (Saint Cloud, Leesburg, LaBelle). Jay holds licenses in FL and TX. Out-of-state parcels are case-by-case — start the conversation and we\'ll be straight with you on whether we\'re the right team.',
-  },
-  {
-    q: 'How does a project actually start?',
-    a: 'You submit the land. Jay does an honest fit-check on a 15-minute call. If the parcel works as a community, we draft a partnership structure that fits what you want out of it, line up the build, and Justin starts driving visibility on day one of operations.',
+    a: "No. No broker commission, no consulting retainer, no upfront cost to have the conversation. We make money when communities are actually built and operating.",
   },
   {
     q: 'How do I check that this is real?',
-    a: 'Jay: linkedin.com/in/jayeben (FL Mobile Home Dealer License, expires Sep 2027 / TX MHD License, expires Apr 2026). Justin: A&E cast page at aetv.com and his site justinstamper.com. Heritage Housing Solutions: BBB-accredited (A+), license DH11519051, Longwood, FL.',
+    a: "Jay: linkedin.com/in/jayeben (FL Mobile Home Dealer License, expires Sep 2027; TX MHD License, expires Apr 2026). Justin: aetv.com cast page and justinstamper.com. Heritage Housing Solutions: BBB-accredited A+, FL license DH11519051, Longwood, FL.",
   },
 ]
 
@@ -67,7 +67,7 @@ export function Faq() {
             <span className="h-px w-8 bg-blue-900" />
           </p>
           <h2 className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950">
-            Questions landowners{' '}
+            Questions investors{' '}
             <span className="serif-italic text-blue-900">actually ask</span>.
           </h2>
         </motion.div>

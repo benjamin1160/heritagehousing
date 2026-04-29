@@ -84,7 +84,7 @@ export function Hero() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
               </span>
               <span className="rounded-full border border-blue-200/80 bg-white/80 px-3 py-1 text-[11px] font-semibold tracking-[0.12em] text-blue-900 uppercase backdrop-blur">
-                Now partnering with landowners
+                For real-estate investors new to manufactured housing
               </span>
             </motion.div>
 
@@ -92,23 +92,23 @@ export function Hero() {
               variants={item}
               className="display text-5xl md:text-6xl lg:text-7xl font-semibold text-neutral-950"
             >
-              Got land? Let&apos;s turn it into a{' '}
+              You know real estate.{' '}
               <span className="serif-italic highlight-swoosh text-green-700">
-                community
-              </span>
-              .
+                We&apos;ll show you
+              </span>{' '}
+              manufactured housing.
             </motion.h1>
 
             <motion.p
               variants={item}
               className="mt-6 max-w-xl text-lg md:text-xl text-neutral-600 leading-relaxed"
             >
-              Heritage Housing Solutions partners with landowners to build out
-              and operate manufactured-home communities. We bring the homes,
-              the operator, and{' '}
+              Built for small park owners scaling up, fix-and-flip investors
+              graduating to a real asset class, and{' '}
               <span className="font-semibold text-neutral-900">
-                the audience to fill them.
-              </span>
+                affordable-housing authorities funding the gap.
+              </span>{' '}
+              We bring the brand, the operator, and the homes.
             </motion.p>
 
             <motion.form
@@ -120,7 +120,7 @@ export function Hero() {
               <div className="rounded-2xl border border-neutral-200 bg-white/90 p-3 shadow-lg shadow-blue-900/5 backdrop-blur">
                 <div className="flex flex-col gap-2 sm:flex-row">
                   <label htmlFor="hero-address" className="sr-only">
-                    Land address, parcel ID, or county
+                    Tell us about you — investor type, parcel, or capital
                   </label>
                   <div className="relative flex-1">
                     <svg
@@ -141,7 +141,7 @@ export function Hero() {
                       name="address"
                       type="text"
                       required
-                      placeholder="Parcel address, county, or acreage"
+                      placeholder="Park owner, fix/flipper, housing authority, other..."
                       className="w-full rounded-xl border border-transparent bg-neutral-50 py-3.5 pl-11 pr-4 text-base text-neutral-900 placeholder:text-neutral-400 transition-colors focus:border-blue-400 focus:bg-white focus:outline-none"
                     />
                   </div>
@@ -152,7 +152,7 @@ export function Hero() {
                     transition={{ type: 'spring', stiffness: 400, damping: 22 }}
                     className="shimmer-hover cta-glow relative overflow-hidden rounded-xl bg-gradient-to-br from-green-500 to-green-700 px-6 py-3.5 text-base font-semibold text-white whitespace-nowrap"
                   >
-                    <span className="relative z-10">Start My Proposal →</span>
+                    <span className="relative z-10">Walk Me Through It →</span>
                   </motion.button>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Free 15-min call, no broker
+                  Free 15-min walkthrough call
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -183,7 +183,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Homes supplied by Heritage
+                  Asset-class onboarding included
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -249,26 +249,26 @@ export function Hero() {
             >
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  A&amp;E
+                  Park owners
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Zombie House Flipping cast
+                  Scaling past their first community
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  25+
+                  Flippers
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Communities in Jay&apos;s operating arc
+                  Graduating to monthly cash flow
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  FL · TX
+                  Authorities
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Mobile home dealer licensed
+                  Funding the affordable-housing gap
                 </div>
               </div>
             </motion.div>
