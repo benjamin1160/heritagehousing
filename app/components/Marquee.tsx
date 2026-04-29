@@ -8,10 +8,10 @@ type Badge = {
 
 const badges: Badge[] = [
   { title: 'A&E', sub: 'Zombie House Flipping', icon: 'star' },
-  { title: 'Trusted', sub: 'land partner', icon: 'shield' },
-  { title: '2,500+', sub: 'pads developed', icon: 'home' },
-  { title: '20+ years', sub: 'community building', icon: 'award' },
-  { title: 'Fast close', sub: 'on qualifying parcels', icon: 'clock' },
+  { title: 'BBB A+', sub: 'Heritage Housing Solutions', icon: 'shield' },
+  { title: 'FL · TX', sub: 'mobile home dealer licensed', icon: 'home' },
+  { title: 'LakeShore', sub: 'community-operator alum', icon: 'award' },
+  { title: '25+', sub: 'communities in Jay’s arc', icon: 'clock' },
 ]
 
 function Icon({ name }: { name: Badge['icon'] }) {

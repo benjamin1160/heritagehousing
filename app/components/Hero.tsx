@@ -84,7 +84,7 @@ export function Hero() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
               </span>
               <span className="rounded-full border border-blue-200/80 bg-white/80 px-3 py-1 text-[11px] font-semibold tracking-[0.12em] text-blue-900 uppercase backdrop-blur">
-                Now partnering with landowners across the US
+                Now partnering with landowners
               </span>
             </motion.div>
 
@@ -92,23 +92,22 @@ export function Hero() {
               variants={item}
               className="display text-5xl md:text-6xl lg:text-7xl font-semibold text-neutral-950"
             >
-              Turn your land into a{' '}
+              Got land? Let&apos;s turn it into a{' '}
               <span className="serif-italic highlight-swoosh text-green-700">
-                thriving
+                community
               </span>
-              <br />
-              community.
+              .
             </motion.h1>
 
             <motion.p
               variants={item}
               className="mt-6 max-w-xl text-lg md:text-xl text-neutral-600 leading-relaxed"
             >
-              Heritage Housing Solutions partners with investors and landowners
-              to develop manufactured-home communities, RV parks, and
-              large-scale residential projects —{' '}
+              Heritage Housing Solutions partners with landowners to build out
+              and operate manufactured-home communities. We bring the homes,
+              the operator, and{' '}
               <span className="font-semibold text-neutral-900">
-                from feasibility through stabilization.
+                the audience to fill them.
               </span>
             </motion.p>
 
@@ -170,7 +169,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Free feasibility review
+                  Free 15-min call, no broker
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -184,7 +183,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  JV, partnership, or outright purchase
+                  Homes supplied by Heritage
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <svg
@@ -198,7 +197,7 @@ export function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Capital, entitlement & build-out handled
+                  Communities operated by Jay Eben
                 </span>
               </p>
             </motion.form>
@@ -250,26 +249,26 @@ export function Hero() {
             >
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  2,500+
+                  A&amp;E
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Pads developed &amp; managed
+                  Zombie House Flipping cast
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  20+ yrs
+                  25+
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Building communities
+                  Communities in Jay&apos;s operating arc
                 </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-900">
-                  Nationwide
+                  FL · TX
                 </div>
                 <div className="mt-1 text-xs text-neutral-500 leading-tight">
-                  Active deal footprint
+                  Mobile home dealer licensed
                 </div>
               </div>
             </motion.div>

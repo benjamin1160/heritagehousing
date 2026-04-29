@@ -69,21 +69,22 @@ export function PurchasedHomes() {
             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-900"
           >
             <span className="h-px w-10 bg-blue-900" />
-            Receipts
+            What we build
           </motion.p>
           <motion.h2
             variants={item}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Communities we&apos;ve{' '}
-            <span className="serif-italic text-blue-900">developed</span>.
+            Manufactured-home{' '}
+            <span className="serif-italic text-blue-900">communities</span>.
           </motion.h2>
           <motion.p
             variants={item}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            Real projects, real residents. A small slice of the 2,500+ pads
-            we&apos;ve developed and managed across the country.
+            Land + factory-built homes + a real operator. Replace these
+            placeholder photos with a community Jay has operated and a Heritage
+            home installation when assets are ready.
           </motion.p>
         </motion.div>
 
