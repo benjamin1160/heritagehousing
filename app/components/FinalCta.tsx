@@ -77,7 +77,7 @@ export function FinalCta() {
             <span className="pulse-ring absolute inline-flex h-full w-full rounded-full bg-green-400" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
           </span>
-          Reviewing parcels now — fast response
+          Reviewing parcels now
         </motion.p>
 
         <motion.h2
@@ -87,10 +87,10 @@ export function FinalCta() {
           transition={{ duration: 0.7, ease: EASE_OUT, delay: 0.08 }}
           className="display balance mt-6 text-5xl md:text-7xl font-semibold"
         >
-          Have land? Let&apos;s build something.
+          Got land? Let&apos;s see if it pencils.
           <br className="hidden md:block" />
           <span className="serif-italic text-green-300">
-            Submit your parcel.
+            15 minutes with Jay.
           </span>
         </motion.h2>
 
@@ -101,9 +101,9 @@ export function FinalCta() {
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.18 }}
           className="balance mx-auto mt-6 max-w-xl text-lg text-blue-100/90 leading-relaxed"
         >
-          Tell us about your land — acreage, county, current zoning, what
-          outcome you want. Heritage Housing Solutions will send a written
-          proposal with structure options, or call us at{' '}
+          Tell us about your land — county, acreage, current zoning. Jay will
+          do an honest fit-check on a 15-minute call and tell you straight
+          whether a manufactured-home community works there. Or call{' '}
           <a
             href="tel:+14045550123"
             className="font-semibold text-white underline decoration-green-400/60 underline-offset-4 hover:decoration-green-300"

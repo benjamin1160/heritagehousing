@@ -73,44 +73,44 @@ const benefits: {
   tone: string
 }[] = [
   {
-    icon: 'cash',
-    title: 'Capital and construction, fully funded',
-    body: 'We bring the equity, debt, and build-out. You bring the parcel — no out-of-pocket from you on entitlement or development.',
+    icon: 'noFee',
+    title: 'The brand: Justin Stamper',
+    body: 'Cast member of A&E’s Zombie House Flipping with hundreds of thousands of followers across his platforms. When Justin posts about a community, the right investors and residents pay attention.',
     size: 'wide',
-    tone: 'from-green-500/15 to-emerald-300/5',
+    tone: 'from-rose-500/15 to-pink-300/5',
   },
   {
     icon: 'home',
-    title: 'Flexible deal structure',
-    body: 'Outright purchase, joint venture, or seller-carried partnership — we structure to what works for you.',
+    title: 'The homes: Heritage',
+    body: 'Heritage Housing Solutions is a Florida-licensed manufactured / modular / tiny-home dealer (BBB A+). We supply the inventory that fills the community.',
     size: 'default',
     tone: 'from-blue-500/15 to-cyan-300/5',
   },
   {
-    icon: 'wrench',
-    title: 'Entitlement & engineering',
-    body: 'Zoning, permitting, civil, utilities — our team has navigated it across multiple states.',
-    size: 'default',
-    tone: 'from-orange-500/15 to-amber-300/5',
-  },
-  {
     icon: 'noShow',
-    title: 'Community design & layout',
-    body: 'Pad density, amenities, road grids, stormwater — Jay Eben designs communities that actually lease up.',
+    title: 'The operator: Jay Eben',
+    body: 'Mobile-home dealer licensed in FL and TX, alum of LakeShore Management — one of the country’s largest community operators. Jay runs the playbook from move-in through stabilized cash flow.',
     size: 'default',
     tone: 'from-violet-500/15 to-indigo-300/5',
   },
   {
-    icon: 'noFee',
-    title: 'Marketing reach & visibility',
-    body: 'Justin Stamper from A&E’s Zombie House Flipping puts your project in front of an audience most operators can’t access.',
-    size: 'tall',
-    tone: 'from-rose-500/15 to-pink-300/5',
+    icon: 'cash',
+    title: 'You keep the land',
+    body: 'No requirement to sell. Most partnerships are structured so you stay in as the landowner and ride the upside.',
+    size: 'default',
+    tone: 'from-green-500/15 to-emerald-300/5',
+  },
+  {
+    icon: 'wrench',
+    title: 'Honest fit check first',
+    body: 'Not every parcel pencils as a community. We tell you on the first call whether the math works — before anyone spends a dollar.',
+    size: 'default',
+    tone: 'from-orange-500/15 to-amber-300/5',
   },
   {
     icon: 'clock',
-    title: 'You choose how to participate',
-    body: 'Cash out at close, ride alongside us as a JV partner, or stay on as ground lessor — your call.',
+    title: 'No broker, no retainer',
+    body: 'You don’t pay us to talk. We make money when communities are built and leased — not on consulting hours.',
     size: 'default',
     tone: 'from-sky-500/15 to-blue-300/5',
   },
@@ -120,17 +120,17 @@ const steps = [
   {
     n: '01',
     title: 'Tell us about the land',
-    body: 'Fill out the form or call. Address, acreage, current zoning, and what outcome you want — purchase, JV, or partnership.',
+    body: 'Fill out the form or call. Address or county, acreage, current zoning, and what you want out of it.',
   },
   {
     n: '02',
-    title: 'Free feasibility & proposal',
-    body: 'Our team underwrites the highest-and-best community use, then sends a written proposal with structure options and projected economics.',
+    title: 'Honest fit call with Jay',
+    body: 'Jay walks the parcel on a map and tells you whether it can support a manufactured-home community — and what kind. No pitch deck, no retainer.',
   },
   {
     n: '03',
-    title: 'Pick your path',
-    body: 'Sell outright, partner with us through entitlement and build, or stay in as a long-term JV. We close, fund, and start the project.',
+    title: 'Build, fill, operate',
+    body: 'If it’s a fit, we draft a partnership structure that lets you keep skin in the game. Heritage supplies the homes, Jay runs operations, Justin drives visibility.',
   },
 ]
 
@@ -196,17 +196,16 @@ export function Solution() {
             variants={listItem}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Why landowners partner with{' '}
+            What you actually get with{' '}
             <span className="serif-italic text-blue-900">Heritage</span>.
           </motion.h2>
           <motion.p
             variants={listItem}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            We&apos;ve developed and managed 2,500+ pads across the country —
-            manufactured-home communities, RV resorts, and master-planned
-            residential. One team, fully funded, all the way from raw dirt to
-            stabilized asset.
+            Three things stitched together: a brand that gets eyeballs on the
+            project, a dealer that supplies the homes, and an operator who&apos;s
+            already run portfolios past 25 communities.
           </motion.p>
         </motion.div>
 

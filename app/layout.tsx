@@ -5,9 +5,9 @@ import type { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title:
-    'Turn Your Land Into a Thriving Community — Land Partnerships for Investors | Heritage Housing Solutions',
+    'Turn Your Land Into a Manufactured-Home Community | Heritage Housing Solutions',
   description:
-    'Heritage Housing Solutions partners with investors and landowners to develop manufactured-home communities, RV parks, and large-scale residential projects. Led by community-building expert Jay Eben and A&E Zombie House Flipping star Justin Stamper.',
+    'Got land? Heritage Housing Solutions partners with landowners to build out and operate manufactured-home communities. Brought to you by A&E Zombie House Flipping star Justin Stamper and community operator Jay Eben.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {

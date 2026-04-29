@@ -7,44 +7,44 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 
 const faqs = [
   {
-    q: 'What kind of land do you partner on?',
-    a: 'Raw acreage, infill parcels, distressed parks, failed subdivisions, and sites already in entitlement. Typical project sizes range from 20 to 500+ acres, but we look at deals outside that range when the fundamentals work. We focus on parcels suited for manufactured-home communities, RV resorts, and master-planned residential.',
+    q: 'What kind of project is Heritage actually building?',
+    a: 'Manufactured-home communities. We help landowners take raw or under-used acreage and turn it into a community of factory-built homes — supplied by Heritage Housing Solutions, operated by Jay Eben\'s team.',
   },
   {
-    q: 'Do you buy land outright or partner on it?',
-    a: 'Both. We structure deals three ways: (1) outright purchase at close, (2) joint venture where you contribute the land for equity in the developed asset, or (3) seller-carried partnership / ground lease. We tailor the structure to what the owner needs.',
+    q: 'Who is Justin Stamper and what does he do here?',
+    a: 'Justin is a cast member of A&E\'s Zombie House Flipping and an active real-estate investor in Central Florida (Blueprint Real Estate Group). At Heritage, his role is brand and marketing — putting projects in front of investors and residents through his platform.',
   },
   {
-    q: 'Who is Justin Stamper?',
-    a: 'Justin is a partner at Heritage Housing Solutions and a cast member on A&E\'s Zombie House Flipping — a reality series where teams renovate dilapidated, abandoned "zombie" houses across Orlando, Tampa, and Seattle. He brings visibility, network, and a track record of bringing distressed real estate back to life.',
+    q: 'Who is Jay Eben and what does he do here?',
+    a: 'Jay is the operator. He\'s a licensed mobile-home dealer in FL and TX, an alum of LakeShore Management — one of the largest manufactured-housing community operators in the US — and runs his own community vehicle, Broadview Communities. If Justin is the face, Jay is the playbook.',
   },
   {
-    q: 'Who is Jay Eben?',
-    a: 'Jay is the operational backbone of Heritage Housing Solutions. He has 20+ years designing, entitling, building, and operating manufactured-home communities and parks. If Justin is the face, Jay is the playbook — he\'s the reason the projects actually pencil and lease up.',
+    q: 'What does Heritage Housing Solutions itself supply?',
+    a: 'Heritage is a Florida-licensed dealer of manufactured, modular, and tiny homes (BBB A+, license DH11519051). Once a community is approved and built out, Heritage supplies the homes that fill the pads.',
   },
   {
-    q: 'What states do you operate in?',
-    a: 'We have active projects across 12+ states and continue to expand. We underwrite parcels nationwide. Send us the info — if it\'s outside our current footprint but the fundamentals are strong, we have a network of capital partners who can step in.',
+    q: 'Do you buy my land or do I keep it?',
+    a: 'Most of our partnerships keep the landowner in. The point of bringing Justin\'s reach and Jay\'s operating muscle is so you don\'t have to sell the land at retail-comp pricing — you participate in the community we build together. That said, an outright purchase is on the table if that\'s what you want.',
   },
   {
-    q: 'Are there any fees or commissions to engage you?',
-    a: 'No. The feasibility review is free. There\'s no broker commission, no consulting retainer, no upfront cost. We only make money when a project actually closes and gets built.',
+    q: 'Are there any fees or retainers to talk?',
+    a: 'No. No broker commission, no consulting retainer, no upfront cost to have the conversation. We make money when the community is actually built and operating.',
   },
   {
-    q: 'What if my land is stuck in entitlement?',
-    a: 'That\'s often where we add the most value. Our team has navigated zoning changes, special-use permits, conditional approvals, utility extensions, and county hearings across multiple jurisdictions. Send us the file — we\'ll tell you whether it\'s salvageable.',
+    q: 'What if my land doesn\'t pencil as a community?',
+    a: 'We\'ll tell you on the first call. Not every parcel is a fit — wrong location, wrong zoning posture, wrong shape. Jay\'s honest fit-check is the first step, and it\'s free.',
   },
   {
-    q: 'How fast does a deal move?',
-    a: 'Initial proposal in a few business days. Letter of intent within 1–2 weeks once we have the basics. Outright purchases can close in 30–45 days; JV partnerships and entitlement-heavy projects move on a project-specific timeline.',
+    q: 'Where do you focus geographically?',
+    a: 'Heritage is Florida-based with active inventory in central and south Florida (Saint Cloud, Leesburg, LaBelle). Jay holds licenses in FL and TX. Out-of-state parcels are case-by-case — start the conversation and we\'ll be straight with you on whether we\'re the right team.',
   },
   {
-    q: 'What happens after I submit my info?',
-    a: 'A member of our team reviews the parcel, pulls the public data we need, and reaches out to confirm a few details. We send a written proposal with one or more deal structures and projected economics. From there, you decide whether to move forward — no pressure either way.',
+    q: 'How does a project actually start?',
+    a: 'You submit the land. Jay does an honest fit-check on a 15-minute call. If the parcel works as a community, we draft a partnership structure that fits what you want out of it, line up the build, and Justin starts driving visibility on day one of operations.',
   },
   {
-    q: 'Can I see Heritage Housing Solutions online?',
-    a: 'Yes — visit heritagehousingsolutions.com for the company, or partners.heritagehousingsolutions.com for active partnership opportunities. Connect with Jay on LinkedIn at linkedin.com/in/jayeben.',
+    q: 'How do I check that this is real?',
+    a: 'Jay: linkedin.com/in/jayeben (FL Mobile Home Dealer License, expires Sep 2027 / TX MHD License, expires Apr 2026). Justin: A&E cast page at aetv.com and his site justinstamper.com. Heritage Housing Solutions: BBB-accredited (A+), license DH11519051, Longwood, FL.',
   },
 ]
 
