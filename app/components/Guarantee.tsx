@@ -63,10 +63,10 @@ export function Guarantee() {
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.22 }}
           className="balance mx-auto mt-5 max-w-xl text-lg text-neutral-600 leading-relaxed"
         >
-          The fit-check call is free. If your parcel doesn&apos;t pencil as a
-          community, Jay will tell you on the call — no follow-up pitch, no
-          broker commission, no consulting fee. We only make money when
-          communities are actually built and operating.
+          The walkthrough call is free. If manufactured housing isn&apos;t the
+          right fit for where you&apos;re at, Jay will tell you on the call —
+          no follow-up pitch, no broker commission, no consulting fee. We
+          only make money when communities are actually built and operating.
         </motion.p>
       </div>
     </section>

@@ -75,8 +75,8 @@ export function OfferCard() {
             What you get
           </div>
           <div className="mt-1 text-base font-semibold tracking-tight text-neutral-900">
-            A community on your land —{' '}
-            <span className="serif-italic text-blue-900">funded, filled, and operated</span>.
+            A walkthrough into the asset class —{' '}
+            <span className="serif-italic text-blue-900">brand, operator, and homes in one team</span>.
           </div>
         </div>
 

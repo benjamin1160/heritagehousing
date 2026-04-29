@@ -138,44 +138,44 @@ const situations: {
   body: string
 }[] = [
   {
-    icon: 'inherited',
-    title: 'Inherited acreage',
-    body: 'Family land you can’t actively manage? Let us help turn it into a producing community without you selling.',
-  },
-  {
-    icon: 'vacant',
-    title: 'Raw land sitting idle',
-    body: 'Acreage you’ve held for years and never figured out the play on? We’ll tell you on a 15-minute call whether a community pencils.',
-  },
-  {
-    icon: 'lotRent',
-    title: 'Carrying costs eating returns',
-    body: 'Property tax and interest compounding on dirt that produces nothing? A community puts it to work.',
-  },
-  {
     icon: 'parkMove',
-    title: 'Tired park operator',
-    body: 'Already own a mobile-home park you’re done managing? Jay has run portfolios past 25 communities — happy to step in.',
-  },
-  {
-    icon: 'landlord',
-    title: 'Land near a growing market',
-    body: 'Parcel near a Sun Belt metro where workforce housing is undersupplied? That’s exactly what we build.',
+    title: 'Small park owner scaling up',
+    body: 'You own one or two communities and you’re solo-operating them. Jay’s run portfolios past 25 — he can show you what the next five look like.',
   },
   {
     icon: 'rehab',
-    title: 'Stalled subdivision',
-    body: 'Approved lots that aren’t penciling for stick-built? A manufactured-home layout often unlocks the deal.',
+    title: 'Fix-and-flipper graduating',
+    body: 'You’ve done the flip cycle. You want monthly cash flow without the renovation grind. MH communities are the natural next move — and Justin’s been exactly where you are.',
+  },
+  {
+    icon: 'inherited',
+    title: 'Affordable-housing authority',
+    body: 'Chartered to deliver affordable units? Manufactured housing is the fastest path to new inventory. We partner with municipalities on community builds.',
+  },
+  {
+    icon: 'lotRent',
+    title: 'RE investor with capital',
+    body: 'You know real estate, you’ve got dry powder, but you’ve never touched MH. Free walkthrough — we’ll explain the asset class before you commit a dollar.',
+  },
+  {
+    icon: 'vacant',
+    title: 'Land you don’t know what to do with',
+    body: 'Inherited or long-held acreage that hasn’t found its play yet? Tell us about it — sometimes a community is exactly what fits.',
+  },
+  {
+    icon: 'landlord',
+    title: 'Family office or fund',
+    body: 'Need yield, a real operator, and a long horizon? Jay runs the asset; you allocate the capital. Clean reporting, defined structure.',
   },
   {
     icon: 'tenants',
-    title: 'Want skin in the game',
-    body: 'Don’t want to just sell? Most of our partnerships keep the landowner in for a piece of the upside.',
+    title: 'Investor syndicate',
+    body: 'A few partners pooling capital? We’ve structured these — including how to keep deal control simple between partners.',
   },
   {
     icon: 'vin',
-    title: 'Off-market and quiet',
-    body: 'Land you’ve never listed but you’re open to monetizing? Confidential conversation, no broker, no signage.',
+    title: 'First-time MH investor',
+    body: 'Never invested in real estate at all but want to learn? Be honest on the call. We work with first-timers when the fit is right.',
   },
 ]
 
@@ -229,21 +229,22 @@ export function Situations() {
             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-900"
           >
             <span className="h-px w-10 bg-blue-900" />
-            Who we partner with
+            Who we work with
           </motion.p>
           <motion.h2
             variants={item}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            Every parcel has a{' '}
-            <span className="serif-italic text-blue-900">path forward</span>.
+            Pick the lane that{' '}
+            <span className="serif-italic text-blue-900">looks like you</span>.
           </motion.h2>
           <motion.p
             variants={item}
             className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed"
           >
-            You don&apos;t need a perfect deal teed up. Whatever the situation
-            — we&apos;ve probably worked through one like it.
+            Real-estate investors at every stage — from your first community to
+            a fund-scale allocation — plus the housing authorities and
+            municipalities funding the affordable side.
           </motion.p>
         </motion.div>
 
@@ -288,14 +289,14 @@ export function Situations() {
           transition={{ duration: 0.5, ease: EASE_OUT }}
           className="mt-10 text-center text-sm text-neutral-500"
         >
-          Not sure if your parcel fits?{' '}
+          Don&apos;t see your lane?{' '}
           <a
             href="#cta-form"
             className="font-semibold text-blue-900 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-600"
           >
-            Tell us about your land
+            Tell us where you&apos;re coming from
           </a>{' '}
-          — we&apos;ll be straight with you on the call.
+          — we&apos;ll be straight on the call.
         </motion.p>
       </div>
     </section>

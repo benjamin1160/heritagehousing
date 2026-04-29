@@ -15,27 +15,27 @@ const EASE_OUT = [0.22, 1, 0.36, 1] as const
 const testimonials = [
   {
     quote:
-      'PLACEHOLDER — replace with a landowner who partnered with Heritage to build a community. Aim for: how they found us, what the parcel was, and what changed for them after the partnership.',
-    name: 'Landowner name',
-    role: 'County, ST',
-    initials: 'LN',
-    tag: 'Partnership · landowner kept equity',
-  },
-  {
-    quote:
-      'PLACEHOLDER — replace with an operator perspective on Jay’s playbook. Aim for: prior occupancy / NOI, what Jay changed, the operating result.',
-    name: 'Operator name',
-    role: 'Community, ST',
-    initials: 'OP',
-    tag: 'Operations turnaround',
-  },
-  {
-    quote:
-      'PLACEHOLDER — replace with an investor who came in via Justin’s audience. Aim for: how they heard about Heritage, what made them trust the team, the outcome.',
+      'PLACEHOLDER — replace with a fix-and-flip investor who graduated into MH. Aim for: how many flips before the jump, what Jay’s walkthrough call clarified, what they ended up doing.',
     name: 'Investor name',
     role: 'City, ST',
     initials: 'IN',
-    tag: 'Found us via A&E platform',
+    tag: 'Fix-and-flip → MH community',
+  },
+  {
+    quote:
+      'PLACEHOLDER — replace with a small park owner who scaled with Jay. Aim for: pads they started with, where they got stuck, how Jay’s operating architecture moved them past that.',
+    name: 'Park owner name',
+    role: 'Community, ST',
+    initials: 'PO',
+    tag: 'Small park owner · scaled up',
+  },
+  {
+    quote:
+      'PLACEHOLDER — replace with a housing-authority partner. Aim for: the affordable-housing gap they were trying to fill, how MH penciled vs. stick-built, the result.',
+    name: 'Authority name',
+    role: 'Municipality, ST',
+    initials: 'HA',
+    tag: 'Affordable housing partner',
   },
 ]
 
@@ -120,9 +120,9 @@ export function Proof() {
             variants={card}
             className="display mt-6 text-5xl md:text-7xl font-semibold text-neutral-950"
           >
-            One{' '}
-            <span className="serif-italic text-blue-900">community-builder</span>.
-            One brand. Aligned on you.
+            Investors at every{' '}
+            <span className="serif-italic text-blue-900">stage</span>. One team
+            walking them through.
           </motion.h2>
         </motion.div>
 

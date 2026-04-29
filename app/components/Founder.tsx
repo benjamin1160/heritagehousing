@@ -41,9 +41,10 @@ export function Founder() {
             <span className="serif-italic text-blue-900">One operator</span>.
           </h2>
           <p className="mt-6 max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed">
-            Two clearly-defined seats at the table. Justin gets your project in
-            front of the right people. Jay actually makes it happen on the
-            ground.
+            Two clearly-defined seats at the table. Justin is the bridge —
+            same fix-and-flip background you have, just on the other side of
+            the jump into MH. Jay is the operator who runs the playbook once
+            you&apos;re in.
           </p>
         </motion.div>
 
@@ -98,10 +99,11 @@ export function Founder() {
                 of those zombie homes and wholesaled hundreds more.
               </p>
               <p>
-                At Heritage, his job is the megaphone. Investors, residents,
-                and partners pay attention when Justin posts — and that
-                attention is what makes the math work for landowners on the
-                fence.
+                At Heritage, his job is the megaphone — and the bridge. He
+                came up through fix-and-flip exactly like most investors who
+                land on this page, and now he&apos;s on the other side of the
+                jump into manufactured housing. When Justin posts, real-estate
+                investors who&apos;ve never looked at MH pay attention.
               </p>
             </div>
 
